@@ -13,3 +13,34 @@ CHALLENGE
 - If the password is less than 5 characters, log out "Your password is too short!".
 */
 
+const password = "halloween"; // I set the exact value of password & set is as constance, because it's something that shouldn't be edited
+const requiredLength = 9; 
+
+function passwordCheck(password) {
+    if (password = "halloween") {
+        console.log("Access Granted!");
+    } else if (password !== "halloween") {
+        console.log("Access Denied!"); // I was trying to tell the computer to deny the access if the password is not "halloween" (it did not work, I'm sorry)
+    }
+}
+
+passwordCheck("christmas");
+
+const hint = "forgot"; //I was trying to set the const for "forgot" input, because I wasn't sure how to include it in the first function
+const newPassword = "reset"; //I set this up for the same reason I set up "forgot" const
+
+function passwordHint(hint) {
+    if (hint = "forgot") {
+        console.log("Here is a hint")
+    };
+}
+
+passwordHint("forgot");
+
+function passwordReset(newPassword) {
+    if (newPassword = "reset") {
+        console.log("Let's reset your account")
+    };
+}
+
+passwordReset("reset");
